@@ -77,3 +77,6 @@ Route::middleware('auth')
         Route::resource('siswa', SiswaController::class)->except('show');
         Route::resource('lulusan', LulusanController::class)->except('show');
     });
+Route::get('/dashboard/bi', [App\Http\Controllers\DashboardController::class, 'index'])
+    ->name('dashboard.bi')
+    ->middleware('auth');  // atau middleware admin/kepsek

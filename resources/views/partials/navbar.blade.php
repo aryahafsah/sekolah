@@ -50,8 +50,7 @@
                 KRITIK & SARAN
             </a>
 
-        </div>
-
+         </div>
         {{-- ADMIN --}}
         <a href="{{ route('login') }}"
            style="font-weight:600;color:#000;text-decoration:none;">

@@ -80,7 +80,7 @@ function showImage(src) {
 }
 
 function closeImage() {
-    document.getElementById('imgModal').style.display = 'none';
+
 }
 </script>
 
